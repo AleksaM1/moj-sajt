@@ -1,0 +1,21 @@
+#hero{
+    background-image: url(slikePocetna/Baner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#kontakt-body{
+    min-height: 500px;
+}
+.card:hover{
+    transform: scale(1.04);
+    transition: transform 2s ease;
+}
+.card{
+    border: 2px solid black;
+}
+.okvir-box{
+    box-shadow: 1px 3px 10px gray;
+}
+#unos{
+    background-image: linear-gradient(to right, #74ebd5,#acb6e5);
+}
