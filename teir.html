@@ -10,7 +10,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
   <div class="container text-center">
-    <a class="navbar-brand" href="index.html">Navbar</a>
+    <a class="navbar-brand" href="index.html">Moj Sajt</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -75,7 +75,40 @@
           </ul></td>
         </tr>
       </table>
-
+    </section>
+    <section class="container">
+      <br><h3>Unesite vasu tier listu</h3>
+      <label>Unesite S-tier likove:</label>&nbsp;
+      <input type="text" id="S-tier"><br><br>
+      <label>Unesite A-tier likove:</label>&nbsp;
+      <input type="text" id="A-tier"><br><br>
+      <label>Unesite B-tier likove:</label>&nbsp;
+      <input type="text" id="B-tier"><br><br>
+      <label>Unesite C-tier likove:</label>&nbsp;
+      <input type="text" id="C-tier"><br><br>
+      <input type="button" value="Posalji" class="btn btn-outline-success" onclick="Posalji()"><br><br>
+      <table>
+        <tr>
+          <th class="p-3 text-center bg-dark text-white">Tier</th>
+          <th class="p-3 text-center bg-dark text-white">Likovi</th>
+        </tr>
+        <tr>
+          <th class="p-3 bg-danger text-white text-center">S</th>
+          <td class="p-3"><p id="S-tierIspis"></p></td>
+        </tr>
+        <tr>
+          <th class="p-3 text-white bg-warning text-center">A</th>
+          <td class="p-3"><p id="A-tierIspis"></p></td>
+        </tr>
+        <tr>
+          <th class="p-3 bg-primary text-white text-center">B</th>
+          <td class="p-3"><p id="B-tierIspis"></p></td>
+        </tr>
+        <tr>
+          <th class="p-3 bg-info text-white text-center">C</th>
+          <td class="p-3"><p id="C-tierIspis"></p></td>
+        </tr>
+      </table>
     </section>
 
 
