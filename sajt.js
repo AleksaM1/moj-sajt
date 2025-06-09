@@ -28,11 +28,14 @@ function Posalji(){
     var Alikovi=document.getElementById("A-tier").value;
     var Blikovi=document.getElementById("B-tier").value;
     var Clikovi=document.getElementById("C-tier").value;
-
-    document.getElementById("S-tierIspis").innerText+=Slikovi;
-    document.getElementById("A-tierIspis").innerText+=Alikovi;
-    document.getElementById("B-tierIspis").innerText+=Blikovi;
-    document.getElementById("C-tierIspis").innerText+=Clikovi;
+    if(Slikovi!="")
+    document.getElementById("S-tierIspis").innerText+=Slikovi + ",";
+    if(Alikovi!="")
+    document.getElementById("A-tierIspis").innerText+=Alikovi + ",";
+    if(Blikovi!="")
+    document.getElementById("B-tierIspis").innerText+=Blikovi + ",";
+    if(Clikovi!="")
+    document.getElementById("C-tierIspis").innerText+=Clikovi + ",";
 
     document.getElementById("S-tier").value="";
     document.getElementById("A-tier").value="";
