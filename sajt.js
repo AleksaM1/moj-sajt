@@ -23,3 +23,19 @@ function provera(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }
+function Posalji(){
+    var Slikovi=document.getElementById("S-tier").value;
+    var Alikovi=document.getElementById("A-tier").value;
+    var Blikovi=document.getElementById("B-tier").value;
+    var Clikovi=document.getElementById("C-tier").value;
+
+    document.getElementById("S-tierIspis").innerText=Slikovi;
+    document.getElementById("A-tierIspis").innerText=Alikovi;
+    document.getElementById("B-tierIspis").innerText=Blikovi;
+    document.getElementById("C-tierIspis").innerText=Clikovi;
+
+    document.getElementById("S-tier").value="";
+    document.getElementById("A-tier").value="";
+    document.getElementById("B-tier").value="";
+    document.getElementById("C-tier").value="";
+}
