@@ -39,3 +39,9 @@ function Posalji(){
     document.getElementById("B-tier").value="";
     document.getElementById("C-tier").value="";
 }
+function Obrisi(){
+    document.getElementById("S-tierIspis").innerText="";
+    document.getElementById("A-tierIspis").innerText="";
+    document.getElementById("B-tierIspis").innerText="";
+    document.getElementById("C-tierIspis").innerText="";
+}
