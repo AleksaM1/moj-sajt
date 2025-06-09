@@ -5,6 +5,7 @@
 }
 #kontakt-body{
     min-height: 500px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .card:hover{
     transform: scale(1.04);
