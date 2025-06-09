@@ -10,7 +10,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
   <div class="container text-center">
-    <a class="navbar-brand" href="index.html">Navbar</a>
+    <a class="navbar-brand" href="index.html">Moj Sajt</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -69,16 +69,18 @@
         </div>
     </div>
     </section>
-    <section class="text-center container" id="unos">
+    <section class="text-center container" class="unos">
+      <form action="https://formspree.io/f/xnnvqpoo" method="POST">
         <h2>Vasi podaci u slucaju saveta</h2>
         <label >Unesite vase ime: </label>&nbsp;
-        <input type="text" id="ime"><br><br>
+        <input type="text" id="ime" name="ime"><br><br>
         <label >Unesite vase email: </label>&nbsp;
-        <input type="text" id="email"><br><br>
+        <input type="text" id="email" name="email"><br><br>
         <label >Unesite vase Poruku: </label>&nbsp;
-        <input type="text" id="poruka"><br><br>
+        <input type="text" id="poruka" name="email"><br><br>
         <button class="btn btn-outline-success" onclick="Poruka()">Posaljite</button>
         <pre id="Ispis" class="mt-4"></pre>
+      </form>
     </section>
 
 <footer class="bg-dark text-white text-center p-5">
